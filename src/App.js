@@ -10,7 +10,7 @@ import { Line, Circle } from 'rc-progress';
 import CountUp from 'react-countup';
 import * as React from "react";
 import { useState } from 'react';
-
+import Link from 'react'
 
 function App() {
 
@@ -37,6 +37,7 @@ function App() {
           </div>
           <div className="customMenu">
             <div className="page1">
+
               <a href="#page2"> <svg xmlns="http://www.w3.org/2000/svg" width="46" height="36" fill="#A91D3A" class="bi bi-arrow-down" viewBox="0 0 10 16">
                 <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
               </svg></a>
@@ -138,9 +139,26 @@ function App() {
                     Their passion for coding and problem-solving drives them to create efficient, user-friendly solutions. Whether crafting elegant interfaces or optimizing server-side logic,
                     I brings creativity and expertise to every project.
                     Feel free to adjust this introduction further to highlight any specific achievements or additional details you’d like to emphasize</p>
-                </div>
+                  </div>
                 <div className='prj'>
                   <h1>PROJECTS</h1>
+                  <div 
+                  style={{
+                    
+                    width:"100%",
+                    height:"35vh",
+                    marginTop:"-10%", 
+                    display:"grid"
+                    ,gridTemplateRows:"10rem 1fr 1fr 1fr 1fr 10rem "
+                  }}  
+                  className='prjLinks'> 
+                    <a className='L1' style={{textDecoration:"none",color:"white",row:"1/3",fontSize:"2vmax",marginTop:"110px"}} href='https://muhammadmoosa110.github.io/JD-/'>PROJECT ONE</a>
+                    <a className='L2' style={{textDecoration:"none",color:"white",gridRow:"4/4",fontSize:"2vmax",marginTop:"50px"}} href='https://muhammadmoosa110.github.io/JD-/'>PROJECT ONE</a>
+                    <a className='L3' style={{textDecoration:"none",color:"white",gridRow:"5/5",fontSize:"2vmax",marginTop:"50px"}} href='https://muhammadmoosa110.github.io/JD-/'>PROJECT ONE</a>
+                  </div>
+                  <div>
+                    
+                  </div>
                 </div>
               </div>
             </div>

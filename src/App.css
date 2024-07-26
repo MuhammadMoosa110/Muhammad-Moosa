@@ -76,9 +76,9 @@ body{
 }
 /* 2nd name */
 .insideWrapper .info .name2{
-  height:10vh ;
-
-  margin-top: 30%;
+  height:50vh ;
+  line-height: 10px;
+  margin-top: 20%;
   padding-right: 55%;
   justify-content: center;
   text-align: center;
@@ -86,7 +86,7 @@ body{
 }
 .insideWrapper .info .name2 .line{
   width: 100%;
-  
+  margin-top: 12px;
   height: 2px;
   background: #C73659;
 }
@@ -95,7 +95,7 @@ body{
   text-align: center;
   padding-top: 2%;
   padding-right: 19.4%;
-  line-height: 24px;
+  line-height: 48px;
   font-size: 4vmax;
 }
 .insideWrapper .info .name2 h2{
@@ -435,12 +435,79 @@ body{
   margin: 10% auto 0px auto;
   overflow-y: hidden;
 }
+.page2 .about .prj .prjLinks .L1{
+ 
+ scale: 1;
+ overflow-x: hidden;
+}
+.page2 .about .prj .prjLinks .L1:hover{
+ 
+ animation-name: style;
+ animation-duration: 3s;
+ 
+ 
+}
+
+.page2 .about .prj .prjLinks .L1{
+ 
+  scale: 1;
+  overflow-x: hidden;
+ }
+ .page2 .about .prj .prjLinks .L1:hover{
+  
+  animation-name: style;
+  animation-duration: 3s;
+  
+  
+ }
+ .page2 .about .prj .prjLinks .L1 a{
+  animation: none;
+ }
+.page2 .about .prj .prjLinks .L1{
+  animation-name: style;
+ animation-duration: 3s;
+ 
+ 
+ scale: 1;
+ overflow-x: hidden;
+}
+.page2 .about .prj .prjLinks .L1:hover{
+  background: #A91D3A;
+ 
+ 
+}
+.page2 .about .prj .prjLinks .L2:hover{
+  background: #A91D3A;
+ 
+ 
+}
+.page2 .about .prj .prjLinks .L3:hover{
+  background: #A91D3A;
+ 
+ 
+}
+@keyframes style {
+  0%{
+    left: 10%;
+    transform: translateY(-100%);
+    background-color: #151515;
+    top: 0;
+     
+  }
+  100%{
+    left: 100%;
+    transform: translateX(0%);
+    background-color: #A91D3A;
+    top: 0;
+     
+  }
+}
 .page2 .about .prj h1{
   color: #A91D3A;
   font-weight: 800;
 }
 
-@media screen and (max-width:786px) {
+@media screen and (max-width:896px) {
   body{
     background:#151515;
   }
@@ -457,8 +524,8 @@ body{
   }
 
   .Wrapper .insideWrapper .info .sphere{
-    width: 40%;
-    height: 85%;
+    width: 10%;
+    height: 15%;
     position: absolute;
     top: -35%;
     left: 4%;
@@ -489,6 +556,7 @@ body{
   }
   .Wrapper .insideWrapper .customMenu .page1 .introTab{
     display: flex;
+
   }
   .Wrapper .insideWrapper .customMenu .page1 .introTab img{
     display: none;
