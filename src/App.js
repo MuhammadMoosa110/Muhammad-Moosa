@@ -21,13 +21,13 @@ function App() {
         <div className="insideWrapper">
           <div className="info">
             <div className='insideInfo'>
-              
+
             </div>
             <div className="sphere">
               <img src={img} />
             </div>
             <div className="name"><h1>MUHAMMAD</h1><h2>MOOSA</h2></div>
-            <div className="name2"><h1>WEB</h1><h2>DEVELOPER </h2>
+            <div className="name2"><h1>WEB</h1><h1>DEVELOPER </h1>
               <div className="line"></div>
             </div>
             <div className="icon"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
@@ -92,7 +92,8 @@ function App() {
 
                     <h1>FRONT-END</h1>
                     <div className='insidePBone'>
-                      <Circle className='circle' percent={per}
+                      <Circle className='circle'
+                        percent={per}
                         trailWidth={"0"}
                         strokeWidth={15}
                         strokeColor="#D3D3D3" />
@@ -122,7 +123,7 @@ function App() {
                 justifyContent: "center",
                 alignItems: "center"
               }}>
-                <h1 style={{ color: "#A91D3A" }}>ABOUT</h1>
+
 
                 <div className='insideAbout'
                   style={{
@@ -132,10 +133,14 @@ function App() {
                     marginLeft: "10%",
                     marginTop: "2.5%"
                   }}>
+                  <h1 style={{ color: "#A91D3A" }}>ABOUT</h1>
                   <p>I am a versatile front-end and back-end developer proficient in React and Next.js. With a wealth of programming experience, they have successfully delivered projects as a freelancer.
-                     Their passion for coding and problem-solving drives them to create efficient, user-friendly solutions. Whether crafting elegant interfaces or optimizing server-side logic,
-                      I brings creativity and expertise to every project.
-                      Feel free to adjust this introduction further to highlight any specific achievements or additional details you’d like to emphasize</p>
+                    Their passion for coding and problem-solving drives them to create efficient, user-friendly solutions. Whether crafting elegant interfaces or optimizing server-side logic,
+                    I brings creativity and expertise to every project.
+                    Feel free to adjust this introduction further to highlight any specific achievements or additional details you’d like to emphasize</p>
+                </div>
+                <div className='prj'>
+                  <h1>PROJECTS</h1>
                 </div>
               </div>
             </div>
