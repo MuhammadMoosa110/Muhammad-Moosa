@@ -505,7 +505,7 @@ body{
   font-weight: 800;
 }
 
-@media screen and (max-width:896px) {
+@media screen and (max-width:712px) {
   body{
     background:#151515;
   }
@@ -522,11 +522,7 @@ body{
   }
 
   .Wrapper .insideWrapper .info .sphere{
-    width: 10%;
-    height: 15%;
-    position: absolute;
-    top: -35%;
-    left: 4%;
+   display: none;
     
   }
   .Wrapper .insideWrapper .info .name {
